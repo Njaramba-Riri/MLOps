@@ -1,0 +1,13 @@
+#Configuratipn file containing SVC parameters
+
+model:
+  - name: 'SVC'
+  - parameters:
+      C: 10
+      kernel: 'rbf'
+      gamma: 0.001
+      degree: 4
+      max_iter: 400
+      class_weight: 'balanced'
+      decision_function_shape: 'ovr'
+      random_state: 123
