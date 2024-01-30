@@ -1,6 +1,6 @@
 # MLOps- Learning Repo.
 
-## Welcome to the MLOps Learning Repository! 🚀
+**Welcome to the MLOps Learning Repository! 🚀**
 
 Hello there! 👋 Thank you for visiting this repository.
 
