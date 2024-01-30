@@ -31,10 +31,11 @@ def load_data() -> Tuple[
     try:
         logging.info("Loading iris daataset...")
         iris = load_iris(as_frame=True)
+        print(iris)
         logging.info("Done loading, now splitting the data.")
         X_train, X_test, y_train, y_test = train_test_split(iris.data, iris.target, 
                                                             test_size=0.2, shuffle=True, random_state=42)
-        
+        logging.info("Done splitting.")
         return X_train, X_test, y_train, y_test
     except Exception as e:
         logging.error("Error while loading iris data: {}".format(e))
